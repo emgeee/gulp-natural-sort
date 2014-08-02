@@ -1,0 +1,37 @@
+{
+  "name": "gulp-natural-sort",
+  "version": "0.1.0",
+  "description": "Sort stream by path name using a natural sort",
+  "main": "index.js",
+  "keywords": [
+    "gulpplugin",
+    "gulpfriendly",
+    "gulp",
+    "sort",
+    "natural sort",
+    "natural"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emgeee/gulp-natural-sort.git"
+  },
+  "author": "Matt Green <mgreen9@gmail.com> (http://emgeee.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emgeee/gulp-natural-sort/issues"
+  },
+  "homepage": "https://github.com/emgeee/gulp-natural-sort",
+  "dependencies": {
+    "natural-compare-lite": "^1.0.0",
+    "through": "^2.3.4"
+  },
+  "devDependencies": {
+    "gulp-debug": "^1.0.0",
+    "mocha": "^1.21.3",
+    "should": "^4.0.4",
+    "vinyl-fs-mock": "^0.1.2"
+  }
+}
