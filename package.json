@@ -8,6 +8,7 @@
     "gulpfriendly",
     "gulp",
     "sort",
+    "order",
     "natural sort",
     "natural"
   ],
@@ -29,7 +30,6 @@
     "through": "^2.3.4"
   },
   "devDependencies": {
-    "gulp-debug": "^1.0.0",
     "mocha": "^1.21.3",
     "should": "^4.0.4",
     "vinyl-fs-mock": "^0.1.2"
