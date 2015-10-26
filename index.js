@@ -9,8 +9,12 @@ function gulpNaturalSort(order) {
   }
 
   function onEnd() {
-    require('natural-compare-lite');
+    var ncl = require('natural-compare-lite');
     var _this = this;
+
+    if (ncl !== undefined) {
+      String.naturalCompare = ncl;
+    }
 
     files.sort(function(a, b) {
       return String.naturalCompare(a.relative.toLowerCase(), b.relative.toLowerCase());
