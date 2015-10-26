@@ -1,6 +1,6 @@
 {
   "name": "gulp-natural-sort",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sort stream by path name using a natural sort",
   "main": "index.js",
   "keywords": [
